@@ -1,0 +1,14 @@
+a main section for whole content seperates them from whole body...
+
+another a single headline describes project name
+
+two select option dropdown for selecting the stoppage 
+
+a button to find route between them and then display it on that webpage......every stop by stop on road
+
+
+
+
+>>>> instead of just finding route:
+
+1. i can calculate route tolls, petrol pumps, 

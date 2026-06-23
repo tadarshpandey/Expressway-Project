@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi-Dehradun-Expressway</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label>Delhi-Dehradun Expressway Route Finder 🛣️</label>
+        <hr>
+
+        <div id="tollPlaza">
+            <h2>Toll Plaza in between route: </h2>
+
+        </div>
+
+        <hr>
+
+        <div class="route-select">
+            
+            <div class="stops-selection">
+                <label>Select Starting Point:</label>
+                <select id="source">
+                    <option value="">starting point</option>
+                </select>
+            </div>
+            🔁
+            <div class="stops-selection">
+                
+                <label>Select Destination:</label>
+                <select id="destination">
+                    <option value="">ending point</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <button onClick="findDistance()">Find Distance</button>
+
+        <div id="distance">
+
+        </div>
+        <div id="toll">
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+    
+
+
+
+</body>
+</html>

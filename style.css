@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.container > label{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+hr{
+    margin: 15px 0;
+}
+
+.route-select{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.stops-selection{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+select{
+    padding: 5px;
+    width: 200px;
+}
+
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#distance,
+#toll,
+#tollPlaza{
+    margin-top: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,
+th,
+td{
+    border: 1px solid black;
+}
+
+th,
+td{
+    padding: 8px;
+    text-align: center;
+}
